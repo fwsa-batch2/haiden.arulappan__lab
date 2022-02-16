@@ -1,0 +1,29 @@
+<html>
+    <head>
+        Simple calculator
+    </head>
+    <body>
+        <script>
+             let operator=prompt("Enter operator(either *, +, - or /)");
+
+             let num1=parseInt(prompt("Enter the value 1"));
+             let num2=parseInt(prompt("Enter the value 2"));
+             let result;
+
+             if (operator == '+'){
+                  result=num1 + num2;
+             }
+              else if(operator =='-'){
+                  result=num1-num2;
+              }
+              else if(operator == '*'){
+                  result=num1*num2;
+              }
+              else{
+                  result=num1/num2;
+              }
+
+              document.write(`The value is ${result}`);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<html>
+    <head>
+
+    </head>
+    <style>
+        body{
+            background-color: cornsilk;
+        }
+        #input1{
+            position: absolute;
+            width: 20%;
+            height: 7%;
+            margin-top: 15%;
+            font-size: 2vw;
+            margin-left: 40%;
+        }
+        #input2{
+            position: absolute;
+            width: 20%;
+            height: 7%;
+            margin-top: 20%;
+            font-size: 2vw;
+            margin-left: 40%;
+        }
+        #result{
+            position: absolute;
+            width: 20%;
+            height: 7%;
+            margin-top: 25%;
+            font-size: 2vw;
+            margin-left: 40%;
+        }
+        #add{
+            position: absolute;
+            width:3%;
+            height: 5%;
+            margin-top: 30%;
+            margin-left: 40%;
+            font-size: 2vw;
+        }
+        #sub{
+            position: absolute;
+            width:3%;
+            height: 5%;
+            margin-top: 30%;
+            margin-left: 45.5%;
+            font-size: 2vw;
+        }
+        #mult{
+            position: absolute;
+            width:3%;
+            height: 5%;
+            margin-top: 30%;
+            margin-left: 51.5%;
+            font-size: 2vw;
+        }
+        #div{
+            position: absolute;
+            width:3%;
+            height: 5%;
+            margin-top: 30%;
+            margin-left: 57%;
+            font-size: 2vw;
+        }
+        /* .box{
+            position: absolute;
+            width:30%;
+            height: 60%;
+            background-color: rgb(184, 164, 164);
+            margin-left: 35%;
+            margin-top: 10%;
+        } */
+        h1{
+            position: absolute;
+            margin-left: 42%;
+            margin-top: 10%;
+        }
+    </style>
+    <h1>MY CALCULATOR</h1>
+    <body>
+        <div class="box">
+        <input type="tel" placeholder="First Number" id="input1" required>
+        <input typr="tel" placeholder="Second Number" id="input2" required>
+        <input type="tel" id="result">
+   
+        <button  id="add" onclick="adding()">+</button>
+
+        <button id="sub" onclick="subtract()">-</button>
+
+        <button id="mult" onclick="multiply()">*</button>
+
+        <button id="div" onclick="division()">/</button>
+
+        <script src="calc.js"></script>
+        </div>
+    </body>
+</html>

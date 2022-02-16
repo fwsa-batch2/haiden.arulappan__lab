@@ -1,0 +1,104 @@
+<html>
+  <head>
+   
+  </head>
+  <body>
+    <style>
+      body{
+        background-color:khaki;
+      }
+      .box{
+        width: 30%;
+        height: 60%;
+        background-color: white;
+        border-radius:20px;
+        margin-left: 34%;
+        margin-top: 10%;
+      }
+    #firstnumber{
+      position: absolute;
+      width: 20%;
+      height: 8%;
+      margin-left: 5%;
+      margin-top: 5%;
+      font-size: 2vw;
+    }
+    #firstnumber:hover{
+      box-shadow: 0 0 3px 6px;
+       color: blue;
+    }
+    #secondnumber{
+      position: absolute;
+      width: 20%;
+      height: 8%;
+      margin-left: 5%;
+      margin-top: 10%;
+      font-size: 2vw;
+    }
+    #secondnumber:hover{
+      box-shadow: 0 0 3px 6px;
+      color: blue;
+    }
+    #option{
+      position: absolute;
+      width: 20%;
+      height: 8%;
+      margin-left: 5%;
+      margin-top: 15%;
+      font-size: 2vw;
+    }
+    #option:hover{
+      box-shadow: 0 0 3px 6px;
+      color: chartreuse;
+    }
+    #result{
+      position: absolute;
+      width: 20%;
+      height: 8%;
+      margin-left: 5%;
+      margin-top: 25%;
+      font-size: 2vw;
+    }
+    #result:hover{
+      box-shadow: 0 0 3px 6px;
+      color: gold;
+    }
+    button{
+      position: absolute;
+      width: 20%;
+      height: 8%;
+      margin-left: 5%;
+      margin-top: 20%;
+      font-size: 2vw;
+    }
+    button:hover{
+      box-shadow: 0 0 3px 6px;
+      color: crimson;
+    }
+ h1{
+   position: absolute;
+   margin-top: -5%;
+   margin-left: 40%;
+ }
+    </style>
+    <h1><center>MY CALCULATOR</center></h1>
+    <div class="box">
+    <form onsubmit="calculator()">
+
+      <input type="tel" id="firstnumber"  placeholder="First Number" required>
+      <input type="tel" id="secondnumber" placeholder="Second Number" required>
+
+      <select id="option">
+     <option>Choose</option>
+     <option value="+">+</option>
+     <option value="-">-</option>
+     <option value="*">*</option>
+     <option value="/">/</option>
+      </select>
+
+       <button type="submit" id="submit">Proceed</button>
+      <input type="tel" id="result">
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

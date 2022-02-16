@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Todo App</title>
+</head>
+
+<body>
+  <style>
+    .card{
+      width: 40%;
+      height: 60%;
+      background-color: rgb(225, 225, 238);
+    }
+  </style>
+        <div>
+            <h1 > Todo App </h1>          
+            <form onsubmit="submitHandler()">              
+                  <input type="text"  id="newTask" placeholder="Enter new Task" required>              
+                <button  type="submit"> Add Task </button>            
+              <ul  id="taskLists">
+              </ul>
+            </form>
+            </div>
+  <script src="todo.js"></script>
+</body>
+</html>

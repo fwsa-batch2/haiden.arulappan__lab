@@ -1,0 +1,26 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            let num1=parseInt(prompt("Enter the value"));
+
+
+            if(num1===1){
+                document.write(`${num1}:is neither prime number nor composite number `);
+            }
+            for(let p=2; p<num1; p++){
+                if(num1%p===0){
+                   document.write(`${num1} It is composite number`);
+                   break;
+                }
+                else{
+                    document.write(`${num1} It is prime number`);
+                    break;
+                }
+                
+            }
+        </script>
+    </body>
+</html>
